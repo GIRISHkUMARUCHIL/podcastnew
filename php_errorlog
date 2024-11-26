@@ -1,0 +1,1063 @@
+[08-Nov-2024 08:52:13 UTC] wp_auto_login: trying to login user_id==1 loginusername=POD to admin_url=https://podcast.eddy.one/wp-admin/
+[08-Nov-2024 10:15:34 UTC] Memcache disabled from SiteTools
+[08-Nov-2024 10:15:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/customer/www/podcast.eddy.one/public_html/wp-content/object-cache.php on line 461
+[08-Nov-2024 13:27:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/podcast-plugin/podcast-plugin.php:1) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[08-Nov-2024 14:05:08 UTC] PHP Warning:  Undefined array key "image" in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/liteweight-podcast/inc/Services/PodcastTemplate.php on line 43
+[10-Nov-2024 07:14:35 UTC] PHP Warning:  Undefined array key 2 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 486
+[10-Nov-2024 07:14:35 UTC] PHP Warning:  Undefined array key 1 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 496
+[10-Nov-2024 07:14:35 UTC] PHP Warning:  Undefined array key 2 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 486
+[10-Nov-2024 07:14:35 UTC] PHP Warning:  Undefined array key 1 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 496
+[10-Nov-2024 07:15:06 UTC] PHP Warning:  Undefined array key 2 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 486
+[10-Nov-2024 07:15:06 UTC] PHP Warning:  Undefined array key 1 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 496
+[10-Nov-2024 07:15:06 UTC] PHP Warning:  Undefined array key 2 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 486
+[10-Nov-2024 07:15:06 UTC] PHP Warning:  Undefined array key 1 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 496
+[11-Nov-2024 07:32:41 UTC] PHP Warning:  Undefined array key 2 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 486
+[11-Nov-2024 07:32:41 UTC] PHP Warning:  Undefined array key 1 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 496
+[11-Nov-2024 07:32:41 UTC] PHP Warning:  Undefined array key 2 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 486
+[11-Nov-2024 07:32:41 UTC] PHP Warning:  Undefined array key 1 in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed.php on line 496
+[11-Nov-2024 12:33:22 UTC] PHP Warning:  Attempt to read property "channel" on bool in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/podcast-importer-secondline/app/Helper/Importer.php on line 147
+[11-Nov-2024 12:33:22 UTC] PHP Warning:  Attempt to read property "item" on null in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/podcast-importer-secondline/app/Helper/Importer.php on line 147
+[11-Nov-2024 12:33:23 UTC] PHP Warning:  Attempt to read property "channel" on bool in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/podcast-importer-secondline/app/Helper/Importer.php on line 147
+[11-Nov-2024 12:33:23 UTC] PHP Warning:  Attempt to read property "item" on null in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/podcast-importer-secondline/app/Helper/Importer.php on line 147
+[12-Nov-2024 06:45:21 UTC] PHP Warning:  Undefined property: WP_Error::$taxonomy in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor-pro/modules/query-control/classes/elementor-post-query.php on line 255
+[12-Nov-2024 08:31:35 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 08:31:44 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 08:32:01 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 08:32:15 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 08:32:22 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 08:32:27 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 08:33:07 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 08:33:15 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 08:33:38 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 08:34:13 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 08:34:22 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:14:28 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:14:35 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:14:43 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:14:46 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:19:33 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:19:43 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:22:42 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:22:53 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:22:57 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:24:13 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:24:19 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:24:22 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:24:22 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:24:25 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:24:42 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:24:44 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:25:06 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:25:10 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:25:15 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:25:30 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:36:41 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:37:09 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:37:29 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:37:32 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:44:52 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:49:14 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:52:38 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:55:30 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:55:39 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:56:03 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 09:59:57 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:00:00 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:00:09 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:03:22 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:04:37 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:07:14 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:08:25 UTC] PHP Warning:  Undefined variable $podcast in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 209
+[12-Nov-2024 10:08:25 UTC] PHP Warning:  Attempt to read property "ID" on null in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 209
+[12-Nov-2024 10:08:26 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:09:16 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:10:06 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:10:18 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:15:11 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:16:00 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:17:31 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[12-Nov-2024 10:18:18 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(700): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[13-Nov-2024 00:26:09 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[13-Nov-2024 06:39:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "spp_enqueue_script" not found or invalid function name in /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/hello-elementor/header.php(24): wp_head()
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(745): load_template('/home/customer/...', true, Array)
+#10 /home/customer/www/podcast.eddy.one/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#12 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#13 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#14 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#15 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php on line 324
+[13-Nov-2024 21:50:14 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[13-Nov-2024 23:20:53 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[14-Nov-2024 06:41:54 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(704): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[14-Nov-2024 06:43:43 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(704): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[14-Nov-2024 06:46:10 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(704): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[14-Nov-2024 06:46:39 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(704): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[14-Nov-2024 06:51:34 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(704): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[14-Nov-2024 06:55:15 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(704): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[14-Nov-2024 06:55:55 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php:28
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/sonaar-music.php(261): load_template('/home/customer/...', true)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): dynamicAssets('')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(704): do_action('init')
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#10 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/sonaar/includes/sonaar-music/css/theme/custom-style.php on line 28
+[16-Nov-2024 10:22:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/customer/www/podcast.eddy.one/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 /home/customer/www/podcast.eddy.one/public_html/wp-includes/cron.php(905): require_once('/home/customer/...')
+#16 /home/customer/www/podcast.eddy.one/public_html/wp-includes/cron.php(1029): spawn_cron(1731752561.5432)
+#17 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): _wp_cron('')
+#18 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#19 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(726): do_action('wp_loaded')
+#21 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#22 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#23 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#24 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#25 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[19-Nov-2024 07:34:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "spp_enqueue_scripts" not found or invalid function name in /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/hello-elementor/header.php(24): wp_head()
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(745): load_template('/home/customer/...', true, Array)
+#10 /home/customer/www/podcast.eddy.one/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#12 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#13 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#14 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#15 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php on line 324
+[19-Nov-2024 07:38:16 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "spp_enqueue_scripts" not found or invalid function name in /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-includes/script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-includes/general-template.php(3064): do_action('wp_head')
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-content/themes/hello-elementor/header.php(24): wp_head()
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(810): require_once('/home/customer/...')
+#9 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template.php(745): load_template('/home/customer/...', true, Array)
+#10 /home/customer/www/podcast.eddy.one/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/page-templates/templates/header-footer.php(9): get_header()
+#12 /home/customer/www/podcast.eddy.one/public_html/wp-includes/template-loader.php(106): include('/home/customer/...')
+#13 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#14 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#15 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php on line 324
+[20-Nov-2024 00:04:42 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Nov-2024 11:50:48 UTC] PHP Warning:  Undefined variable $id in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 181
+[20-Nov-2024 23:05:08 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[21-Nov-2024 12:50:28 UTC] PHP Warning:  Undefined variable $episode_title in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:50:29 UTC] PHP Warning:  Undefined variable $episode_title in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:51:21 UTC] PHP Warning:  Undefined variable $episodes in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:51:21 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:51:22 UTC] PHP Warning:  Undefined variable $episodes in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:51:22 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:53:37 UTC] PHP Warning:  Undefined variable $episodes in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:53:37 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:54:05 UTC] PHP Warning:  Undefined variable $episodes in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:54:05 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:54:06 UTC] PHP Warning:  Undefined variable $episodes in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:54:06 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:56:17 UTC] PHP Warning:  Undefined variable $episodes in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:56:17 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 301
+[21-Nov-2024 12:56:48 UTC] PHP Warning:  Undefined variable $post in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 303
+[21-Nov-2024 12:56:48 UTC] PHP Warning:  Attempt to read property "ID" on null in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 303
+[21-Nov-2024 12:56:50 UTC] PHP Warning:  Undefined variable $post in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 303
+[21-Nov-2024 12:56:50 UTC] PHP Warning:  Attempt to read property "ID" on null in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 303
+[21-Nov-2024 12:58:51 UTC] PHP Warning:  Undefined variable $post in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 303
+[21-Nov-2024 12:58:51 UTC] PHP Warning:  Attempt to read property "ID" on null in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 303
+[21-Nov-2024 12:58:54 UTC] PHP Warning:  Undefined variable $post in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 303
+[21-Nov-2024 12:58:54 UTC] PHP Warning:  Attempt to read property "ID" on null in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 303
+[21-Nov-2024 13:00:15 UTC] PHP Warning:  Undefined variable $post in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 303
+[21-Nov-2024 13:00:15 UTC] PHP Warning:  Attempt to read property "ID" on null in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 303
+[21-Nov-2024 23:58:36 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[22-Nov-2024 05:41:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[22-Nov-2024 06:38:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:312) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/functions.php on line 1702
+[22-Nov-2024 06:38:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:312) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/feed-rss2.php on line 8
+[22-Nov-2024 06:51:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:312) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/rest-api/class-wp-rest-server.php on line 1893
+[22-Nov-2024 06:51:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:312) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/rest-api/class-wp-rest-server.php on line 1893
+[22-Nov-2024 07:05:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:312) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[22-Nov-2024 07:22:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:312) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[22-Nov-2024 07:35:18 UTC] PHP Parse error:  syntax error, unexpected identifier "checkbox", expecting ")" in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 107
+[22-Nov-2024 07:35:22 UTC] PHP Parse error:  syntax error, unexpected identifier "checkbox", expecting ")" in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php on line 107
+[22-Nov-2024 08:10:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[22-Nov-2024 13:03:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[22-Nov-2024 16:03:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1093
+[22-Nov-2024 16:03:10 UTC] wp_auto_login: trying to login user_id==1 loginusername=POD to admin_url=https://podcast.eddy.one/wp-admin/
+[22-Nov-2024 16:04:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[22-Nov-2024 16:22:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[22-Nov-2024 22:22:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[23-Nov-2024 00:10:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[23-Nov-2024 00:11:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[23-Nov-2024 00:11:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[23-Nov-2024 01:22:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[23-Nov-2024 03:19:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[23-Nov-2024 04:30:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[23-Nov-2024 04:30:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[23-Nov-2024 04:35:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/pod/pod.php:279) in /home/customer/www/podcast.eddy.one/public_html/wp-includes/pluggable.php on line 1435
+[24-Nov-2024 09:21:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Core\get_plugins() in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/core/wp-api.php:26
+Stack trace:
+#0 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(96): Elementor\Core\Wp_Api->get_plugins()
+#1 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(58): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_with_header()
+#2 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/compatibility-tag/module.php(57): Elementor\Modules\CompatibilityTag\Base_Module->get_plugins_to_check()
+#3 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/compatibility-tag/base-module.php(148): Elementor\Modules\CompatibilityTag\Module->get_plugins_to_check()
+#4 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): Elementor\Modules\CompatibilityTag\Base_Module->Elementor\Modules\CompatibilityTag\{closure}('')
+#5 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/modules/system-info/module.php(338): do_action('elementor/syste...')
+#8 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/includes/tracker.php(241): Elementor\Modules\System_Info\Module::get_allowed_reports()
+#9 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/includes/tracker.php(540): Elementor\Tracker::get_system_reports_data()
+#10 /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/includes/tracker.php(141): Elementor\Tracker::get_tracking_data(false)
+#11 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): Elementor\Tracker::send_tracking_data()
+#12 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home/customer/www/podcast.eddy.one/public_html/wp-cron.php(191): do_action_ref_array('elementor/track...', Array)
+#15 /home/customer/www/podcast.eddy.one/public_html/wp-includes/cron.php(905): require_once('/home/customer/...')
+#16 /home/customer/www/podcast.eddy.one/public_html/wp-includes/cron.php(1029): spawn_cron(1732440085.7439)
+#17 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(324): _wp_cron('')
+#18 /home/customer/www/podcast.eddy.one/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#19 /home/customer/www/podcast.eddy.one/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#20 /home/customer/www/podcast.eddy.one/public_html/wp-settings.php(726): do_action('wp_loaded')
+#21 /home/customer/www/podcast.eddy.one/public_html/wp-config.php(105): require_once('/home/customer/...')
+#22 /home/customer/www/podcast.eddy.one/public_html/wp-load.php(50): require_once('/home/customer/...')
+#23 /home/customer/www/podcast.eddy.one/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#24 /home/customer/www/podcast.eddy.one/public_html/index.php(17): require('/home/customer/...')
+#25 {main}
+  thrown in /home/customer/www/podcast.eddy.one/public_html/wp-content/plugins/elementor/core/wp-api.php on line 26
+[25-Nov-2024 07:33:57 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
