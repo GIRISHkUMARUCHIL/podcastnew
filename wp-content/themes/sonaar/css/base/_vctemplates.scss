@@ -1,0 +1,461 @@
+.vc_row.sonaar-templates-biography-4-textoverlay{
+    background-position-x: center!important;
+    background-position-y: top!important;
+    background-size: inherit!important;
+        @media (max-width:1920px){
+          background-size: contain!important;
+        }
+}
+
+.sonaar_templates_bg_pattern{
+    background-size:inherit!important;
+    
+}
+
+
+
+.sonaar-templates-banner-shop1 .vc_btn3-container a{
+    padding: 25px 80px 28px 25px!important;
+    font-size:25px!important;
+    font-weight: 600;
+}
+
+.sonaar-templates-banner-shop1 .vc_btn3.vc_btn3-style-outline-custom{
+    border-width:3px;
+}
+
+.sonaar-templates-biography-5 .wpb_column:first-child{
+    @media (max-width:1024px){
+    padding-top:100px!important;
+    padding-bottom:100px!important;
+    padding:10%;
+}
+}
+
+.sonaar_templates_audioplayer001{
+    .vc_btn3.vc_btn3-size-lg {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
+// sonaar-templates-banner-2columns-1
+.sonaar-templates-banner-2columns-1{
+    &.vc_row{
+        p {
+            font-size: 21px;
+            line-height: 36px;
+            font-weight: 600;
+        }
+    }
+}
+
+// sonaar-templates-biography-7
+.sonaar-templates-biography-7{
+    &.vc_row-fluid {
+        background-position: right top!important;
+        background-size:inherit!important;
+    }
+    #dropcap span.dropcap {
+        font-size: 57px;
+        width: 56px;
+        height: 33px;
+        margin-top: 13px;
+        margin-left: -4px;
+        float: left;
+    }
+    @media (max-width: 991px) {
+        &.vc_row-fluid {
+            background-size:contain!important;
+            background-position: center top!important;
+        }
+    }
+}
+
+// .sonaar-templates-footer01
+.sonaar-templates-footer01 button, .sonaar-templates-footer01 .vc_btn3-container {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.sonaar-templates-footer01 .vc_btn3-container:last-child {
+    margin-right: -15px!important;
+}
+
+
+.sonaar-templates-footer01 .footercredit p{
+    font-size:10px;
+    letter-spacing:2px;
+}
+
+.sonaar-templates-footer01 .footercredit a{
+    color:#fff;
+}
+
+.sonaar-templates-footer01 .sponsor-logo p{
+text-align: center;
+}
+.sonaar-templates-footer01 .sponsor-logo img{
+ padding: 5px 5vw;
+vertical-align: middle;
+}
+
+.sonaar-templates-footer01 a.vc_btn3-icon-left {
+    left: -25px;
+}
+.sonaar-templates-footer01 .vc_btn3-container {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px){
+    .sonaar-templates-footer01 .vc_btn3-container:first-child {
+        margin-left: 80px!important;
+    }
+    .sonaar-templates-footer01 *{
+        text-align: center !important;
+    }
+    .sonaar-templates-footer01 .dividerwrap div{
+        margin: auto;
+        float: none;
+    }
+}
+
+
+// sonaar-templates-footer02
+.sonaar-templates-footer02 p, #footer .sonaar-templates-footer02 p {
+    color:inherit;
+}
+.sonaar-templates-footer02 [class*="mc4wp-form"] {
+    text-align: left;
+}
+.sonaar-templates-footer02 [class*="mc4wp-form"] button, .sonaar-templates-footer02 [class*="mc4wp-form"] input[type=submit]{
+    margin: 10px 0px 0px 0px;
+}
+
+.sonaar-templates-footer02 [class*="footercredit"] a{
+    color:inherit;
+}
+
+.sonaar-templates-footer02 [class*="footercredit"] p{
+    font-size:10px;
+    letter-spacing:2px;
+}
+
+.sonaar-templates-footer02 [class*="sponsor-logo"] p{
+text-align: center;
+}
+.sonaar-templates-footer02 [class*="sponsor-logo"] img{
+ padding: 5px 5vw;
+vertical-align: middle;
+}
+
+.sonaar-templates-footer02 a[class*="vc_btn3-icon-left"] {
+    left: -25px;
+}
+.sonaar-templates-footer02 [class*="vc_btn3-container"] {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px){
+    .sonaar-templates-footer02 *{
+        text-align: center !important;
+    }
+    .sonaar-templates-footer02 [class*="dividerwrap"] div{
+        margin: auto;
+        float: none;
+    }
+}
+
+// sonaar-templates-footer03
+.sonaar-templates-footer03 [class*="footer-radius"]{
+    border-radius: 10px 10px 0 0;
+}
+.sonaar-templates-footer03 {
+  background-color:inherit!important;  
+}
+
+.sonaar-templates-footer03 .align-right .wpb_wrapper{
+    text-align: right !important;
+}
+
+@media screen and (max-width: 768px) {
+.sonaar-templates-footer03 .center-mobile *, .sonaar-templates-footer03 .center-mobile .align-right .wpb_wrapper{
+    text-align: center !important;
+}
+}
+
+// sonaar-templates-footer04
+.sonaar-templates-footer04 [class*="mc4wp-form"] {
+    text-align: center;
+}
+.sonaar-templates-footer04 [class*="footer-withimage"]{
+    background-position: center top!important;
+}
+    
+.sonaar-templates-footer04 [class*="footercredit"] p{
+    font-size:10px;
+    letter-spacing:2px;
+}
+
+.sonaar-templates-footer04 [class*="sponsor-logo"] p{
+   text-align: center;
+}
+.sonaar-templates-footer04 [class*="sponsor-logo"] img{
+   padding: 5px 5vw;
+   vertical-align: middle;
+}
+.sonaar-templates-footer04 [class*="vc_btn3-container"] {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px){
+    .sonaar-templates-footer04 *{
+        text-align: center !important;
+    }
+    .sonaar-templates-footer04 [class*="dividerwrap"] div{
+        margin: auto;
+        float: none;
+    }
+}
+
+
+
+// sonaar-templates-footer05
+.sonaar-templates-footer05 p, #footer .sonaar-templates-footer05 p {
+    color:inherit;
+}
+.sonaar-templates-footer05 [class*="mc4wp-form"] {
+    text-align: left;
+}
+.sonaar-templates-footer05 [class*="mc4wp-form"] button, .sonaar-templates-footer05 [class*="mc4wp-form"] input[type=submit]{
+    margin: 10px 0px 0px 0px;
+}
+
+.sonaar-templates-footer05 [class*="footercredit"] a{
+    color:inherit;
+}
+
+.sonaar-templates-footer05 [class*="footercredit"] p{
+    font-size:10px;
+    letter-spacing:2px;
+}
+
+.sonaar-templates-footer05 [class*="sponsor-logo"] p{
+text-align: center;
+}
+.sonaar-templates-footer05 [class*="sponsor-logo"] img{
+ padding: 5px 5vw;
+vertical-align: middle;
+}
+
+.sonaar-templates-footer05 a[class*="vc_btn3-icon-left"] {
+    left: -25px;
+}
+.sonaar-templates-footer05 [class*="vc_btn3-container"] {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px){
+    .sonaar-templates-footer05 *{
+        text-align: center !important;
+    }
+    .sonaar-templates-footer05 [class*="dividerwrap"] div{
+        margin: auto;
+        float: none;
+    }
+}
+
+// sonaar-templates-footer07
+
+#footer .sonaar-templates-footer07 .container {
+    max-width: 1400px;
+}
+#footer .sonaar-templates-footer07 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #dfd9df !important;
+    opacity: 1 !important;
+}
+#footer .sonaar-templates-footer07 ::-moz-placeholder { /* Firefox 19+ */
+    color: #dfd9df !important;
+    opacity: 1 !important;
+}
+#footer .sonaar-templates-footer07 :-ms-input-placeholder { /* IE 10+ */
+    color: #dfd9df !important;
+    opacity: 1 !important;
+}
+#footer .sonaar-templates-footer07 :-moz-placeholder { /* Firefox 18- */
+    color: #dfd9df !important;
+    opacity: 1 !important;
+}
+.sonaar-templates-footer07{ 
+    form{
+        text-align: inherit !important;
+        p{
+            display: inline !important;
+        }
+    }
+    .vc_btn3.vc_btn3-size-lg .vc_btn3-icon {
+        font-size: 34px !important;
+        height: 34px !important;
+        line-height: 34px !important;
+    }
+
+    .mc4wp-form input[type=text], .mc4wp-form input[type=email], .mc4wp-form input[type=tel], .mc4wp-form input[type=url], .mc4wp-form input[type=date], .mc4wp-form input[type=number], .mc4wp-form select, .mc4wp-form textarea {
+        color: #dfd9df !important;
+        background: transparent !important;
+        text-align: center !important;
+        font-size: 14px !important;
+        line-height: 18px !important;
+        padding:  0 15px !important;
+        height: 48px !important;
+        box-sizing: border-box !important;
+        border: 2px solid !important;
+        border-radius: 32px !important;
+        margin-bottom: 20px !important;
+        margin-left: 20px !important;
+        margin-right: 20px;
+    }
+
+    .mc4wp-form input[type=submit]{
+        font-size: 14px !important;
+        line-height: 18px!important;
+        height: 50px !important;
+        text-transform: uppercase !important;
+        font-weight: 500 !important;
+        padding:  0 15px !important;
+        border-radius: 32px !important;
+        letter-spacing:1px !important;
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        color: #dfd9df !important;
+        box-sizing: content-box !important;
+    }
+
+    .mc4wp-form input[type=submit]:hover{
+        color: #dfd9df !important;
+        background-color: #179a7d !important;  
+    }
+    .footercredit{
+        font-size: 11px;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        a{
+            text-decoration: underline;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .sonaar-templates-footer07{
+        .mc4wp-form input[type=text], .mc4wp-form input[type=email], .mc4wp-form input[type=tel], .mc4wp-form input[type=url], .mc4wp-form input[type=date], .mc4wp-form input[type=number], .mc4wp-form select, .mc4wp-form textarea {
+            font-size: 21px !important;
+            line-height: 21px !important;
+            height: 58px !important;
+            width: calc(65% - 70px) !important;
+            max-width: 435px !important;
+            box-sizing: content-box !important;
+            margin-left: 0 !important;
+            margin-right:8% !important;
+        }
+        .mc4wp-form input[type=submit]{
+            padding: 0 15px !important;
+            height: 60px !important;
+            width: 25% !important;
+            font-size: 17px !important;
+            line-height: 21px !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+    }
+}
+
+// sonaar-templates-social-media-footer
+@media screen and (min-width: 768px){
+    .sonaar-templates-social-media-footer .vc_btn3.vc_btn3-size-lg .vc_btn3-icon{
+        font-size: 32px;
+    }
+}
+
+
+// sonaar-templates-artist01
+.sonaar-templates-artist01 .vc_btn3.vc_btn3-size-md .vc_btn3-icon {
+    font-size: 23px;
+    height: 26px;
+    line-height: 23px;
+}
+
+// sonaar-templates-artist02
+.sonaar-templates-artist02 .vc_btn3.vc_btn3-size-sm {
+    padding: 11px 18px;
+}
+
+// sonaar-templates-event-list-01 and sonaar-templates-event-list-02
+.sonaar-templates-event-list-01{
+    .concerts-list{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+
+// sonaar-templates-members 
+.sonaar-templates-members .vc_btn3, .sonaar-templates-members .vc_btn3:hover, .sonaar-templates-members .vc_btn3:active, .sonaar-templates-members .vc_btn3:focus{
+    color: inherit;
+    background-image: none !important;
+    background-color: transparent !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.sonaar-templates-members a.vc_btn3-icon-left{
+    left: -18px;
+}
+
+// sonaar-templates-band-member-fullwidth 
+.sonaar-templates-member-pic{
+    min-height: 37vw;
+}
+@media (max-width:767px){
+    .sonaar-templates-member-pic{
+        height: 100vw;
+    }
+}
+// sonaar-templates-studio-intro
+.sonaar-templates-studio-intro{
+    &.vc_row{
+        p {
+            font-size: 21px;
+            line-height: 36px;
+            font-weight: 600;
+        }
+    }
+}
+
+// sonaar-templates-booking-1
+.sonaar-templates-booking-1{
+    p{
+        font-size: 21px;
+        line-height: 36px;
+        font-weight: 600;
+    }
+}
+
+// sonaar-templates-heading-bold-1
+.sonaar-templates-heading-bold-1{
+    @media (max-width:768px){
+        .vc_custom_heading {
+            font-size: 38px!important;
+            line-height: 46px!important;
+        }
+    }
+}
+
+// Buttons into video box
+.video-background-2buttons .vc_btn3.vc_btn3-size-lg{
+    font-weight: 700 !important;;
+    padding-left: 65px !important;
+    padding-right: 65px !important;
+    font-size: 24px !important;
+    line-height: 24px !important;;
+}

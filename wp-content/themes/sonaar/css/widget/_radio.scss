@@ -1,0 +1,47 @@
+.srt_player-container{
+    /*margin-bottom:50px;*/
+
+    &:after{
+        content:'';
+        display:block;
+        clear:both;
+        float: none;
+    }
+
+    .store-list{
+        .song-store{
+            display: inline-block;
+        }
+        .fa{
+            font-size: 13px;
+            min-width: 17px;
+            text-align: left;
+            margin-right: 5px;
+
+        }
+        .button{
+            padding: 4px 10px 5px 8px;
+            border-radius: 3px;
+            font-weight: 700;
+        }
+        svg{
+            width: 13px;
+            height: 13px;
+            margin-right: 5px;
+            vertical-align: middle;
+		}
+    }
+
+    .span.heading-t3, h3.widgettitle, span.heading-b3{
+        display: none;
+    }
+
+    .buttons-block .store-list .button{
+        display: table;
+        i, span{
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+
+}

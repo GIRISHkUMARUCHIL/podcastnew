@@ -1,0 +1,165 @@
+/* Mailchimp  for  Wordpress*/
+.mc4wp-form{
+   text-align:center;
+    width: auto;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: auto;
+    height: auto;
+    vertical-align: baseline;
+    line-height: normal;
+    margin: 1em 0;
+}
+.mc4wp-form input {
+    font-size: 14px;
+}
+
+.mc4wp-form ::-webkit-input-placeholder{
+color:#000000!important;
+}
+.mc4wp-form:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.mc4wp-form label {
+    font-weight: 700;
+    margin-bottom: 6px;
+    display: block;
+}
+.mc4wp-form input.placeholdersjs {
+    color: #000!important;
+}
+.mc4wp-form input[type=text],.mc4wp-form input[type=email],.mc4wp-form input[type=tel],.mc4wp-form input[type=url],.mc4wp-form input[type=date],.mc4wp-form select,.mc4wp-form textarea {
+    min-height: 32px;
+    width: 100%;
+    max-width: 468px;
+}
+.mc4wp-form input[type=number] {
+    min-width: 40px;
+}
+.mc4wp-form input[type=checkbox],.mc4wp-form input[type=radio] {
+    position: relative;
+    margin: 0 6px 0 0;
+    padding: 0;
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    border: 0;
+}
+.mc4wp-form input[type=checkbox] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+}
+.mc4wp-form input[type=radio] {
+    -webkit-appearance: radio;
+    -moz-appearance: radio;
+    appearance: radio;
+}
+.mc4wp-form button,.mc4wp-form input[type=submit] {
+    margin:24px;
+    color: #fff!important;
+    font-size:16px;
+}
+.mc4wp-form button,.mc4wp-form input[type=submit],.mc4wp-form input[type=button] {
+    display: inline-block;
+    padding: 9px 45px 9px 45px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 1.428571429;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+    filter: none;
+    height: auto;
+    width: auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.mc4wp-form button:focus,.mc4wp-form input:focus,.mc4wp-form select:focus,.mc4wp-form textarea:focus {
+    outline: 0;
+    background-image: none;
+}
+.mc4wp-form button:focus,.mc4wp-form button:hover,.mc4wp-form input[type=submit]:focus,.mc4wp-form input[type=submit]:hover,.mc4wp-form input[type=button]:focus,.mc4wp-form input[type=button]:hover {
+    outline: 0;
+    color: #333;
+    text-decoration: none;
+    background: 0 0;
+}
+.mc4wp-form button:active,.mc4wp-form button:focus,.mc4wp-form button:hover,.mc4wp-form input[type=submit]:active,.mc4wp-form input[type=submit]:focus,.mc4wp-form input[type=submit]:hover {
+    color: #000!important;
+    background-color: #fff!important;
+}
+.mc4wp-form label>span,.mc4wp-form li>label {
+    font-weight: 400;
+}
+.mc4wp-form .mc4wp-alert {
+    color: #c09853;
+    clear: both;
+}
+.mc4wp-form .mc4wp-success {
+    color: #468847;
+}
+.mc4wp-form .mc4wp-notice {
+    color: #3a87ad;
+}
+.mc4wp-form .mc4wp-error {
+    color: #CD5C5C;
+}
+.rtl .mc4wp-form-reset input[type=checkbox],.rtl .mc4wp-form-reset input[type=radio] {
+    margin: 0 0 0 6px;
+}
+.mc4wp-form input[type=text],.mc4wp-form input[type=email],.mc4wp-form input[type=tel],.mc4wp-form input[type=url],.mc4wp-form input[type=date],.mc4wp-form input[type=number],.mc4wp-form select,.mc4wp-form textarea {
+    height: auto;
+    padding: 11px 27px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    text-shadow: none;
+}
+
+.mc4wp-form textarea {
+    height: auto;
+}
+.mc4wp-form input[disabled],.mc4wp-form input[readonly] {
+    background-color: #eee
+}
+
+.mc4wp-form input[type=text]:focus,.mc4wp-form input[type=email]:focus,.mc4wp-form input[type=tel]:focus,.mc4wp-form input[type=url]:focus,.mc4wp-form input[type=date]:focus,.mc4wp-form select:focus,.mc4wp-form textarea:focus {
+    border-color: #d9d9d9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,255,255,.15);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,255,255,.15);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,255,255,.15);
+}
+@media (max-width: 768px) {
+   .mc4wp-form input[type=text],.mc4wp-form input[type=email],.mc4wp-form input[type=tel],.mc4wp-form input[type=url],.mc4wp-
+      form input[type=date],.mc4wp-form select,.mc4wp-form textarea {
+      max-width: 280px;
+    }
+}

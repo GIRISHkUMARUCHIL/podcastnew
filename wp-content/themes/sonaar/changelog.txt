@@ -1,0 +1,1053 @@
+----------------------------------------------
+V.4.27 - 2024.07.08
+----------------------------------------------
+- Update Essential Grid to 3.1.3
+- Update Revolution Slider to 6.7.14
+- Update Elementor for Sonaar plugin to 2.4
+- Update fontawesome library to 6
+- Fix artist name output in the sticky player.
+- Fix space below header issue.
+- Fix php error with php 8.3.8.
+- Fix Elementor X twitter icon issue.
+- Fix markup error.
+- Fix the difficulty of setting a static home page under certain conditions.
+- Fix PHP warning when no playlist published.
+
+----------------------------------------------
+V.4.26.3 - 2024.02.01
+----------------------------------------------
+- Fix error with PHP 8.x in some occasion
+
+----------------------------------------------
+V.4.26.2 - 2024.01.25
+----------------------------------------------
+- Update Revolution Slider to 6.6.20
+- Update Elementor for Sonaar plugin to 2.3.7
+- Fixed Theme Options issue with PHP 8.2.
+- Fixed PHP 8.2 error with Merlin.
+- Fixed compatibility issue between the FontAwesome version used by Elementor and Sonaar.
+- Fixed compatibility issue with other plugins that use a global JavaScript variable named "player".
+
+----------------------------------------------
+V.4.26.1 - 2023.11.23
+----------------------------------------------
+- Update Essential Grid to 3.1.1
+- Update Revolution Slider to 6.6.18
+- Update Elementor for Sonaar plugin to 2.3.7
+- Fix shop page backend issue. 
+- Fix issues with the Blurred Playlist featured Image functionality.
+- Remove The H1 tag from the page banner when the title field is empty.
+- Fix PHP error caused by Mailchimp
+
+----------------------------------------------
+V.4.26 - 2023.09.12
+----------------------------------------------
+- Update Essential Grid to 3.0.19
+- Update Revolution Slider to 6.6.16 
+- Update Elementor for Sonaar plugin to 2.3.6
+- Update FontAwesome to 6.4
+- Updated ACF to 6.1.6
+- Fix PHP conflict with WPGive plugin
+- Fix External Link on the Event List 
+- Fix RSS Feed duration output
+- Fix Sticky player icon alignment
+- Fix compatibility issue with js optimization plugins
+- Fix Podcast feed tag issue
+- Add Google Fonts Jost
+- NEW shortcode [sonaar_current_year] to display current year in footer
+
+----------------------------------------------
+V.4.25 - 2023.04.18
+----------------------------------------------
+- Update Essential Grid to 3.0.17.1
+- Update Revolution Slider to 6.6.12 
+- Update Elementor for Sonaar plugin to 2.3.5
+- Increase Podcast Player image resolution
+- Change the way to download googlefont
+- Change Single Artist post top margin
+- Fix JS error during ajax navigation
+- Fix responsive menu issue caused by Underscore.js dependency
+- Fix Event list element "Call to action" style options from elementor
+- Fix header background transparency issue, when the header is set "over content" since elementor 3.9.1
+- Fix compatibility with "Local Google Fonts" plugin
+- Fix compatibility issue with the Sonaar MP3 Player plugin pagination feature
+- Fix compatibility issue with the Sonaar MP3 Player plugin styling otpins
+- Fix compatibility issue with the Sonaar MP3 Player plugin podcast category slug
+- Fix Moonlight "New Album" slider issue since Revolution Slider 6.6.12
+- Fix FontAwesome library issue
+
+----------------------------------------------
+V.4.24.2 - 2022.12.14
+----------------------------------------------
+- Update elementor for sonaar plugin to 2.3.4
+- Promobox: Add image size attribute
+- Fix Elementor Editor loading issue when a BandsInTown element is in the page content
+- Fix Player issue when special characters are in the playlist title
+- Fix time issue when stream is selected but has an hidden mp3
+- Fix Podcast Importation issue: Make sure episode with no content import successfully
+- Fix Event post: It was immpossible to edit a event draft through Elementor editor
+
+----------------------------------------------
+V.4.24.1 - 2022.09.09
+----------------------------------------------
+- Fix header and footer blocks styling issue
+
+----------------------------------------------
+V.4.24 - 2022.09.08
+----------------------------------------------
+- Fix PHP warning error: Deprecated "Elementor\DB::is_built_with_elementor"
+- Optimizing Sticky Player: Load medium image in the sticky instead of the large image
+- Music Player: When 2 different players are present on the same page, play/pause buttons was bugged.
+- Single Event: Fix draft Preview (le draft donnait une erreur 404 en preview)
+- Single artist: the string "Website" was not included by our translation  feature: Website string nest pas translatable dans les theme options: https://d.pr/i/5lyEee
+- Music Grid and Artist: Fix issue with the artist name not updating on the grid
+- Fix VideoList: fix perfect scrollbar issue
+- Podcast Episode: Add "Do not skip to the next track" option in the episode post
+- Podcast Player: Remove title in the hidden playlist.
+- Podcast Player: Fix comment form appearing on page that contains the Podcast Archive widget
+- Google Font Disabling: if you want to disable Google Font, do not select any fonts in the theme option dropdown and no Google Font will be loaded
+- WPBAKERY: remove Deprecated IRON.SonaarEnableFitText function  (cause JS error "this.map is not a function")
+- Fix issue with podcast RSS feed when using MP3 Audio Player Pro Plugin
+- Magnetic custom CSS: Fix issue when we select the classic menu
+- Elementor Sonaar Addons 2.3.3: Fix soft deprecated function "register_widget_type"
+- Elementor Sonaar Addons 2.3.3: Fix issue when 2 different players are present on the same page, play/pause buttons was bugged.
+- Elementor Sonaar Addons 2.3.3: Fix issue with the Reveal transition in the Offcanvas widget
+- Elementor Sonaar Addons 2.3.3: Fix Countdown on hover in the Elementor Editor
+
+----------------------------------------------
+V.4.23 - 2022.03.23
+----------------------------------------------
+- Fix PHP Error caused by the new version of Elementor: _register_controls is deprecated since version 3.1.0! Use Elementor\Controls_Stack::register_controls() instead
+- Fix Revolution Slider not displaying with AJAX in some occasion
+- Improved WooCommerce product detailed page styling
+- Fix header and footer blocks translation issue
+- Fix play button not showing up the Podcrafter grid
+- Updated Elementor for Sonaar to 2.3.2 (Instruction: To update this plugin, go to WP-Admin > Plugins > Delete Elementor for Sonaar plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.)
+- Updated Essential Grid to 3.0.15
+- Updated Perfect Scrollbar to 1.5.3
+
+----------------------------------------------
+V.4.22.1 - 2022.02.08
+----------------------------------------------
+- Fix License Validation and Player issue due to vue.min.js. We now embed vue js instead of relying on their official cdn.
+- Fix wrong slug name when creating a new post or page
+- String Comment was missing in the Translation
+- Code Optimization and improvement
+
+----------------------------------------------
+V.4.22 - 2021.12.21
+----------------------------------------------
+- PUSH Menu: Fix social media option issue
+- Fix hidden options issue: Typography color for playlist and sticky player were hidden
+- Video Category Page: Fix video filtering issue. Display now videos from the right category.
+- Taxonomy page: Prevent PHP warning
+- Podcast Importation: Fix duration issue. Now display the correct duration
+- Download Link: prevent download links to be ajaxified
+- Ajax Navigation: Fix the "fit-vids-style" duplicating issue when we navigate
+- Theme Options: Remove "Logo Options" if the Elementor Header feature is selected in the "Menu Options"
+- Widget Player: Fix unclickable control when wave is visible
+- Wizard: Change child theme documentation URL
+- Woccommerce: Fix style issue through elementor
+- Woocommerce: Prevent add-to-cart URL to be proceeded via the AJAX page loading
+- Woocommerce Single Product Page: Fix clicking tab issue
+- Update Elementor Sonaar Add-on to 2.3.1
+- Elementor Header: Fix margin issue when we scroll back to the top
+
+----------------------------------------------
+V.4.21.3 - 2021.09.02
+----------------------------------------------
+- Single Post: Fix style issue caused by Essential Grid
+- Single Podcast Episode: Fix issue for the episode navigator
+- Podcast: Fix php 8 issue with rss import
+- Elementor: Fix Sonaar icons in the elementor editor
+- Playlist: Fix issue for the "No Track skip" feature
+- Sticky Player: Fix the volume icon issue since last theme update 4.21.2
+- MP3 player Plugin comptaibily: Fix issue on the mp3 player plugin control over woocommerce image redirection
+- Promobox: Fix PHP error when no image selected into the promobox widget
+- Woocommerce: Fix style issue on the single product template.
+- Update Elementor Sonaar Add-on to 2.3
+- Update Revolution Slider to 6.5.7  
+- Update Iron Demo Importer to 1.8
+
+----------------------------------------------
+V.4.21.2 - 2021.08.10
+----------------------------------------------
+- Fix issue for player style since last theme update 4.20
+- Fix ajax issue for the elementor widget gallery
+- Improve CLS score by adding SVG size 
+
+----------------------------------------------
+V.4.21.1 - 2021.07.20
+----------------------------------------------
+- Fix issue for Podcast player since last theme update 4.20 
+
+----------------------------------------------
+V.4.21 - 2021.07.20
+----------------------------------------------
+- Sonar Theme  is now fully compatible with MP3 Audio Player Pro by Sonaar standalone plugin. The MP3 Audio Player Pro is more e-commerce/WooCommerce oriented and include more specific options. More info here https://sonaar.io/free-mp3-music-player-plugin-for-wordpress/
+- Fix JS error about IRON.initEveryTime()
+- Fix issue where loop did not work when only 1 track was set on the playlist
+- Update Elementor Sonaar Add-on to 2.2
+- Update moment.js to 2.29.1
+
+----------------------------------------------
+V.4.20.3 - 2021.05.24
+----------------------------------------------
+- Sticky Player: The small close X button has been replaced by a down arrow to minimize the player
+- Sticky Player: Rename CSS selector progress to wave-progress-bar to prevent third-party script conflicts
+- Sticky Player: Fixed open in new tab action
+- Video List: Fix issue when filtering by artist
+- Event List: Fix issue when filtering by artist
+- Playlist: Add target link option (_blank, _self) for track list stores
+- Playlist: Archive category has now its own PHP template
+- Playlist: Since ACF 5.9.5 -> Iron_soundrise::getField( 'alb_tracklist', $post->ID ) == "" when playlist doesnt have track fixed
+- General: Fix deprecated class with Elementor new version: Elementor\Scheme_Typography is deprecated. Make sure to update Elementor Sonaar Addons
+- General: Improvement of the Sticky section and its hide on scroll down, show on scroll up function
+- General: Fix JS warning in the console when in Elementor Editor
+- Elementor for Sonaar Plugin 2.1.1 update available
+
+----------------------------------------------
+V.4.20.2 - 2021.03.29
+----------------------------------------------
+- Elementor For Sonaar plugin update is required. We moved Elementor related JS scripts in Elementor-for-Sonaar
+- Replaced the H1 tag for a div tag in sticky player to prevent double H1 tag in your pages
+- Fix issue with menu no clickable when navigating AJAX since lastest Contact Form 7 update
+- Fix layout glitch when using video widget in some case
+
+----------------------------------------------
+V.4.20.1 - 2021.03.01
+----------------------------------------------
+- Compatibility for PHP 8
+- Update ACF Pro to 5.9.5
+- Update Revolution Slider to 6.3.9
+- General: Fix Offcanvas bugs
+- General: New! Added overlay offcanva option
+- General: Added transparent header option for Elementor Header
+- General: Added header responsive labels in Elementor editor for better UX
+- General: Fix Empty banner image being displayed on frontend when no image was selected
+- General: Speed optimization
+- General: Fix PHP warning : Illegal String offset color and font_redeable
+- General: Merge ironMusic.min.js into main.js
+- General: Minor code clean up and optimisation
+
+----------------------------------------------
+V.4.20 - 2021.01.30
+----------------------------------------------
+- New! Built your header with Elementor!
+- New! Nav Elementor Widget to design your own menu
+- New! OffCanvas Elementor widget to design awesome offcanvas menu and sidebar
+- New! Site Logo Elementor widget to implement your site logo across your website. Upload your logo in WP-Admin > Appearance > Customize > Site Identity
+- New! Sticky Section to make your Elementor section or header sticky with cool hide-on-scroll effects.
+- Update Elementor Sonaar Addon to 2.0 to benifit from the new features.
+- Music Player: Added track gap option for tracklist in Elementor Widget
+- General: Refactored Elementor Sonaar Addon enqueue
+- General: WP 5.6 compatibility fix for color picker in Audio player & Event Settings
+- General: Code optimization in the JS files
+- To learn more about this update, read our blog post at sonaar.io/blog/
+
+---------------------------------------------- 
+V.4.19.5 - 2021.01.26 
+----------------------------------------------
+- Fix widgets PHP error since Elementor 2.1.0. Please update Elementor For Sonaar Plugin as well.
+
+----------------------------------------------
+V.4.19.4 - 2020.12.09
+----------------------------------------------
+- WP 5.6 Compatibility: Updated Essential Grid to 3.0.10
+- WP 5.6 Compatibility: Fix deprecated jQUERY
+- WP 5.6 Compatibility: Removed jQuery Migrate 1.2.1
+- Podcast: setPlayer JS function always started the first episode when executed twice
+- General: Fix RationalOptionPages class conflicts with third party plugins
+- General: Code cleanup and removed unused scripts
+
+----------------------------------------------
+V.4.19.3 - 2020.11.27
+----------------------------------------------
+- New! Added new theme demo called Cinematic. https://sonaar.io/theme/cinematic-film-wordpress-theme/
+- New! Added back button JS function. Simply use the ID '#sr-back-btn' on any element and when clicked, the user will get back to the previous URL
+- New! Added global variable of our theme colors. Eg: Use value 'var(--sr-global-color1)' on any CSS selector to match the theme color 1. See: https://d.pr/i/FhpX2D
+
+----------------------------------------------
+V.4.19.2 - 2020.11.20
+----------------------------------------------
+- New! Option to hide mini-menu when we scroll down and display the mini-menu back when we scroll up. Option is available in WP-Admin > Theme Options > Menu Options > Mini Menu: Hide on scroll down, display on scroll up
+- New! Option to unveil all sub menu items on mobile. Option is available in WP-Admin > Theme Options > Menu Options > Mobile Settings > Unveail All Sub Menu Items on Mobile
+- New! Added option for Playlist, Podcast Episode and Video single templates to select position of the player to be either above the content or below the content
+- Podcasts: Fix issue with RSS importer that does not import new episodes in some case because of the WP cache
+- Podcasts: Add hook for podcast feed importation. Documentation here: https://sonaar.io/docs/fetch-import-new-episodes-from-your-existing-podcast-hosting-automatically/
+- Event List: Set target blank when the event has an external link
+- Mobile Menu: Fixed encoding issue since the last theme update
+- General: Fix PHP Warning on new install when no option has been saved yet
+- General: Added Author Support for all CPT. This fix a PHP user_url warning throw by Slider Revolution.
+- Translation: Added Available Now string to translation for album side cover template
+- Translation: Added No Upcoming Event scheduled for event
+- Optimized the migration script to avoid issue in some case
+
+----------------------------------------------
+V.4.19.1 - 2020.10.22
+----------------------------------------------
+- Podcasts: Fix issue with some installation no being able to play the audio since last update
+- Podcasts: Fix issue with Podcast importation encoding. Nn characters will not show on new import.
+- Podcasts: Fix issue with Play Button being cut off on iOS
+- Podcasts: replaced checkbox by switch box in the podcast options for better UI
+- Podcasts: Added option to strip HTML code in the podcast archive list content which caused UI issues in some case
+- General: Fix double menu display when using Elementor Pro Theme Builder
+- General: Fix issue with site title being displayed even if logo on responsive was set
+- General: Fix issue with mobile menu and its the active state with Ajax
+- General: Fix issue in rare case where sidebar being displayed on single templates when it should not
+- General: Updated FontAwesome to 5.12.0
+- General: Optimized Awesome library. Make sure to set this option to NO if you want to benefit from this: https://d.pr/i/AR5BIv
+
+----------------------------------------------
+V.4.19 - 2020.10.02
+----------------------------------------------
+- New! You can now translate all the theme strings directly in the theme options. Go to WP-Admin > Theme Options > Transations
+- New! Option to display the playlist in reverse order on the front-end. Go to WP-Admin > Playlist
+- New! Elementor Podcast Player widget can be fully customized with Elementor
+- New! Artist Category Taxonomy template
+- Podcasts: Fix issue with N and R ascii characters encoding with feed import
+- Podcasts: Rename CF FileOrStream to FileOrSreamPodcast to avoid conflict
+- Podcasts: Fix issue with category names with special characters in the sticky footer player
+- Events: Fix issue with event widget in the sidebar where all events are being displayed
+- Artist: Fix issue with feature image showing up on the single artist blank template
+- Audio: Remove Volume Control for Safari since Safari does not support custom volume control JS anymore
+- General: Update ACF to 5.9
+- General: Fix Footer block editing issues when editing with Elementor
+- General: Fix PHP error when editing the footer block with Elementor
+- General: Fix issue with weird scrolling behaviors on mobile
+- General: Fix broken logo on some pages such as archive pages
+- General: Fix jQuery warnings for jQuery 3.0
+- General: Remove PHP error on 404 page not found since last ACF update
+- General: Fix share to twitter button and remove Google+ Share
+- General: Minor styling alignment of the xdebug notices
+- General: Fix issue with Import demo page style
+- General: Code optimization
+- WPBakery: Fix issue with widget animations
+
+----------------------------------------------
+V.4.18.4 - 2020.08.18
+----------------------------------------------
+- Updated: Essential Grid to 3.0.3
+- Updated: Slider Revolution to 6.2.21
+
+----------------------------------------------
+V.4.18.3 - 2020.08.14
+----------------------------------------------
+- Fix Theme options issues since Wordpress 5.5
+- Fix logo issue which breaks on podcast category pages since last ACF update
+- Fix display issue with the empty Woocommerce cart icon
+- Fix RSS formating issue
+- Fix display issue on the blank artist template.
+- Set dynamic BG color on BODY to avoid white edge on Mac OS on scroll
+- Add Patreon Icon in the store icon library
+
+----------------------------------------------
+V.4.18.2 - 2020.07.23
+----------------------------------------------
+- Fix issue with RSS Feed where episodes were not showing since last update
+- Fix logo issue which breaks on some pages since last ACF update
+- Fix issue with tracklist in the sticky audio player since last ACF update
+- Add Elementor Pro 404 template support
+
+----------------------------------------------
+V.4.18.1 - 2020.07.14
+----------------------------------------------
+- Updated Essential Grid to v2.3.6.1 which fix Instagram issue. More info: https://sonaar.io/docs/how-to-use-the-instagram-essential-grid-and-replace-my-username/
+- New! Option to hide featured image in Album page header
+- Improved Video Single Post Type by adding some options such as Info blocks and Image Overlay
+- Fixed single post sharing icons alignment
+- Removed some unused code
+
+----------------------------------------------
+V.4.18 - 2020.07.09
+----------------------------------------------
+- Add option to show category heading in page banner for video, artist, podcast and event single templates
+- Add single-video blank template
+- Add look and feel option to display Vertical Lines over the content for trendy design
+- Add dynamic post title option in page banner to avoid retyping page title a second time in the page banner
+- Add better UI for toggle switches in ACF
+- Add Linked In and Podcast icon in Artist's social media
+- Fix social media icon display issue in the admin of artist post
+
+----------------------------------------------
+V.4.17.1 - 2020.07.06
+----------------------------------------------
+- Move Artist Names below the playlist title instead of being beside each tracks. That makes more sense.
+- We now display multiple artists assigned to a single playlist in the tracklist and the sticky player
+- Fix issue with Artist single page and the links of download and social medias.
+- Fix issue with WooCommerce and is_shop php error
+- Fix Apex Alignment issue avec le play button du playlist
+- Fix Artist Meta Post & Add multi artist in the Artist meta post
+
+----------------------------------------------
+V.4.17 - 2020.06.17
+----------------------------------------------
+- New! Upload custom SVG icons for tracks and album stores
+- New! ACF Pro 5.8.11 is now included! Enjoy
+- New! Option to display a drop-shadow on menu when scrolling down
+- Removed ACF Repeater. Its now included in ACF Pro
+- Updated ACF Widget Area for ACF 5.0
+- Fixed issue with Elementor Pro and ACF and the dynamic fields
+- Fixed issue with WooCommerce shop page that used to display sticky player automatically in some case
+- Parallax Grid for Artists now list the artists in alphabetically order by default
+- Fixed issue when there was a single quote in the playlist title, wrong song was playing
+- Fixed Audio HTML Tag in the DOM with the correct playing file.
+- Fixed issue with fontawesome icons not showing up in the dropdown of the album and track stores in the backend
+- Fixed Save Change button in the theme options that used to be hidden in certain case
+- We now keep the original download filename when people click download button
+- Added HTML support for Podcast excerpt
+- Minor code clean up and optimisation
+
+----------------------------------------------
+V.4.16.1 - 2020.05.05
+----------------------------------------------
+- Reverted WooCommerce PJAX support. WooCommerce can't be ajaxified at this time.
+
+----------------------------------------------
+V.4.16 - 2020.04.29
+----------------------------------------------
+- New! You can add pre footers on any single posts. Useful if you want, by example, display a grid of related artists in your single artist page, or display featured albums in your playlist single page, etc.
+- New! WooCommerce single product page now loads in Ajax
+- New! You can now customize the Video CPT single template with Elementor Pro
+- New! Parallax Grid Elementor Widget. You can now stylize the Parallax Grid using Elementor
+- Fixed a PHP 7.4 notice with Iron Demo Importer
+- Improved query strings for all our assets to avoid cache issue on theme updates
+- Improved UX in theme options with a position fixed Save button
+- Fixed issue with WP Admin bar menu items on page transition
+- Fixed display issue with post grid widget on page transition
+- Fixed featured audio player in the single artist blank template
+- Fixed issue with Event widget and the hour format
+- Fixed issue with the Artist filter in the Event widget
+- Fixed issue with the logo mini dimension when using fullwidth menu
+- Fixed the push menu close behavior when clicking outside of it
+- Fixed parallax banner always activated not working on Firefox and Edge
+- Fixed Podcast taxonomy wp_query when GRID template is selected.
+- Fixed translation for the 'by' label in the sticky player
+- Fixed minor typo issue in theme options
+- Major code clean up in the iron-audioplayer.js
+- Minor code clean up and optimisation
+
+----------------------------------------------
+V.4.15 - 2020.02.12
+----------------------------------------------
+- Fixed issue with Elementor 2.9. You will also be asked to update Elementor Sonaar Addon plugin
+- New! Added option to select the title heading tag in the event, music, podcast and video widgets
+- Fixed issue where non https streams did not play on https website
+- Fixed PHP fatal error when MP3 Music Player plugin is activated
+- Fixed push menu issue when the classic menu is set to not fixed in the theme options
+- Fixed small warning for image 404 not found
+- Minor code clean up and optimisation
+
+----------------------------------------------
+V.4.14 - 2020.02.06
+----------------------------------------------
+- New! Added page banner size option for better responsive
+- New! Added theme option to set page banner typography size for mobile
+- Fixed Stylesheet and theme options deconnection when saving an Elementor page
+- Fixed issue with Elementor Widget Media Carousel widget and its lightbox option
+- Fixed Waypoint script issue on Elementor Canva template
+- Fixed issue with pjax looking for empty wrapper ID when using Elementor Canva template
+- Minor code clean-up
+
+----------------------------------------------
+V.4.13 - 2020.01.24
+----------------------------------------------
+- New! Added optional Skip/Forward 30 seconds buttons in sticky audio player for Podcasts
+- New! Added optional Speed Rate button in sticky audio player for Podcasts
+- New! Added progress bar in sticky audio player for mobile devices
+- New! Added option to display time of an event in the Event listing widget
+
+----------------------------------------------
+V.4.12 - 2020.01.17
+----------------------------------------------
+- New! Added new theme demo called Podcrafter. https://sonaar.io/theme/podcrafter-wordpress-theme-for-podcasting/
+- New! Elementor Widget to list videos from our Video Custom Post Type. 
+
+----------------------------------------------
+V.4.11 - 2020.01.10
+----------------------------------------------
+- Reduced the theme size considerably by removing the source mapping of our CSS compiler. It will be faster to load.
+- Added option in the Music Player widget to set the HTML Title Heading
+- Added options in Podcast Category page to manage the menu colors
+- Fixed issue with the Music Player in the Footer where the next track would not automatically start in some case
+- Fixed single podcast Show page where it could not display all episodes when the grid option is selected
+- Fixed Push Menu Overlay style and its background. In some case there was a glitch when scrolling down the menu.
+- Fixed Push Menu panel that was not retracting after clicking a menu item containing an anchor link
+- Optimized code structure for better performance
+- Updated Essential Grid to 2.3.6
+
+----------------------------------------------
+V.4.10 - 2019.12.17
+----------------------------------------------
+- Refactored and optimized Sonaar API V2 for license check with RestAPI
+
+----------------------------------------------
+V.4.9 - 2019.12.17
+----------------------------------------------
+- New! Added AJAX pagination on the podcast archives widget
+- Added an option to choose between List or Grid view for episodes displayed in the Podcast Show CPT
+- Added a download html attribute on the MP3 download CTA button. Download will starts automatically instead of opening a new tab in the browser.
+- Fixed WPBakery editor not loading since WP 5.3
+- Fixed banner images not showing up on iOS
+- Fixed WooCommerce tabs not showing
+
+
+----------------------------------------------
+V.4.8 - 2019.11.25
+----------------------------------------------
+- New! Added podcast archive widget and templates. You can now list your podcast episodes one below each others and customzing the look and feel of the listing with Elementor. You can also switch the display of your podcast archives from 'Grid layout' to 'List layout' by going to wp-admin > theme options > podcasts
+- New! Added a smooth transition when scrubbing the waveform on the sticky footer player
+- New! Added option to disable the RSS feed generated by the theme
+- Renamed iron-google-font ID to sonaar-font for better convention
+- Refactored the banner parallax for smoother animation on Safari and Firefox
+- Fixed WooCommerce tabs that was hidded by default in a WC product
+- Fixed alignment issue with play/pause button in music playlist
+- Fixed issue with Anchor.fm importation
+- Fixed issue with Audio Player settings not changing if Move Dynamic CSS to External Style was enabled.
+- Fixed issue with the number of Episode displayed in a page. We used to display all of them even if you set a maximum number of episode per page in your widget.
+- Fixed minor issue with Elementor Pro's license getting deleted when importing a new demo
+- Fixed padding issue with the Elementor Post Grid widget when using ajax
+- Fixed the audio player control in the artist page on mobile
+- Fixed compatibility issue with Envira Lightbox plugin
+
+
+----------------------------------------------
+V.4.7.2.1 - 2019.10.18
+----------------------------------------------
+- Fixed Php Error about the function getImageSize 
+
+----------------------------------------------
+V.4.7.2 - 2019.10.15
+----------------------------------------------
+- Updated Essential Grid to 2.3.3
+- Fixed iOS audio issue where audio does not start on iOS 13
+- Fixed iOS audio glitches in some cases
+- Fixed padding-top issue when loading a new page if logo above menu is set
+- Fixed issue with sticky player stops when coming back to a page where a player already exists
+- Fixed Podcast time duration where hours were not shown
+- Fixed Instagram API issue with Essential Grid. See: https://sonaar.io/docs/how-to-use-the-instagram-essential-grid-and-replace-my-username/
+- Improved appearance of Audio Player when used in a WP Widget
+- Improved appearance of Event list when used in a WP Widget
+- Added translation for the @ before venue in the event template
+- Removed Sonaar News Widget
+- Changed Sonaar API calls for https
+- Optimized code structure for better performance
+
+----------------------------------------------
+V.4.7.1 - 2019.09.16
+----------------------------------------------
+- Fixed the new "No track skip" option
+- Fixed PHP notice regarding the single playlist.
+
+----------------------------------------------
+V.4.7 - 2019.09.13
+----------------------------------------------
+- Added option to disable continuous playing through your tracks within a playlist. When the option is turned on, the player will stop after the track has completed.
+- Fixed minor issue with Ultimate Addon plugin and its lightbox class
+- Fixed Elementor Popups position
+- Fixed Event list on mobile to be displayed correctly
+- Fixed Playlist title that does not show up correctly in the playlist sticky player
+- Fixed issues when importing podcast using the cron job. In some case, the podcast was not showing the correct featured image
+- Fixed issue with the Artist player and its track name that does not change
+- Fixed issue with special characters in the playlist and podcast post titles
+- Fixed issue with anchor scrolling with Elementor
+
+----------------------------------------------
+V.4.6 - 2019.09.06
+----------------------------------------------
+- Fixed issue with Fancybox. Now every third party plugins that work with Fancybox should work correctly with our theme
+- Fixed issue with lightbox
+- Removed Video Grid function and assets from WPBakery and the Video widget. Only Video list is supported from our Vide CPT
+- Podcast RSS Import: Fixed issue when cron job do not import the correct episode image
+- Podcast RSS Import: Fixed PHP notice regarding time duration
+- Fixed PHP Notice wpdb::prepare was called incorrectly with WP 5.x
+- Fixed console error when using Elementor lightbox
+- Minor Admin UI. Moved artists module below tracklist in Album CPT
+- Minor Admin UI. Added featured image column in admin panel of Artists and Podcast CPT
+
+----------------------------------------------
+V.4.5 - 2019.08.26
+----------------------------------------------
+- New! We now fully support the new Apple Podcasts Categories and sub-categories
+- Optimized code structure for better performance
+- Support for WPBakery 6.x compatibility
+- Fixed duplicated content issue when using a single and a new CPT with Elementor Pro
+- Fixed issue with logo load calls when scrolling the website
+- Fixed issue with Soundwave that don't show when starting the player from the page settings
+- Fixed auto-play paramater when starting the player from the page settings (lost commit)
+- Removed scroll top behavior when clicking the playlist icon in the sticky player
+
+----------------------------------------------
+V.4.4.1 - 2019.07.06
+----------------------------------------------
+- Theme Wizard Redirect's issue when saving options
+
+----------------------------------------------
+V.4.4 - 2019.07.05
+----------------------------------------------
+- New! Theme Setup Wizard to make the theme setup and plugin installation much easier.
+- Fixed issue with the podcast category not showing up correctly in the RSS Feed.
+- Fixed sitemap XML (with Yoast SEO, etc.)
+- Fixed the Next/Prev navigation on single blog post (when using the Post Navigation Elementor Pro's widget)
+
+----------------------------------------------
+V.4.3.1 - 2019.06.20
+----------------------------------------------
+- Fixed minor issues in new Music Player styling options.
+
+----------------------------------------------
+V.4.3 - 2019.06.17
+----------------------------------------------
+- Added 20+ new styling options in the Music Player Elementor widget for better design flexibility. Please update Elementor Sonaar Addons plugin to 1.3
+- You can now hide/remove the artwork and title on any playlist widgets.
+- Fixed the_content() not found when creating a page within Elementor Pro's Theme Builder.
+- Added an option to enable auto-play audio in page settings. By default, auto-play is now OFF in page settings.
+- Optimized code structure for better performance
+- Fixed Open in new window option in the Promo Box widget.
+- Fixed Next/Prev navigation responsive styling on the single podcast and single artist page.
+- Inversed Next/Prev navigation button on the single podcast page.
+- Added an option in Theme Options > Pagination to hide Next/Prev navigation on the single podcast and single artist.
+- Fixed Itunes and googleplay summary description in RSS feed to count 4000 caracters and excludes html tags in that count.
+- Fixed Music Player Widget that does not appear in the Elementor editor.
+- Fixed Elementor Pro's Site Logo widget.
+
+----------------------------------------------
+V.4.2.2 - 2019.05.31
+----------------------------------------------
+- Fixed "Hide Menu" option.
+- Fixed minor issue with the RSS feed importation.
+- Fixed logo size issue on safari and firefox.
+- Fixed the audioplayer Wave visibility issue.
+- Removed "Menu Item Hover Effect" option.
+
+----------------------------------------------
+V.4.2.1.1 - 2019.05.17
+----------------------------------------------
+- Fixed Audioplayer issue caused by sonaar v.4.2.1
+
+----------------------------------------------
+V.4.2.1 - 2019.05.15
+----------------------------------------------
+- Fixed footer overlapping issue.
+- Fixed footer issue on multisite.
+- Fixed elementor lightbox compatibility.
+- Fixed Banner issue on Safari.
+- Fixed post pagination.
+- Remove "Videos listings at most" option from the theme options
+
+----------------------------------------------
+V.4.2 - 2019.04.01
+----------------------------------------------
+- New theme demo available: Promote! Promote is a WordPress Theme for Record Labels.
+- Fixed unwanted scrollbar display in menu of the Magnetic Template.
+- Fixed unwanted call to the Sonaar API for Licence check.
+- Fixed Event call to action button / ahref on the front-end when not used.
+- Fixed a minor issue with Elementor Pro Popup.
+
+----------------------------------------------
+V.4.1.5 - 2019.03.13
+----------------------------------------------
+- Fixed mini menu logo issue 
+
+----------------------------------------------
+V.4.1.4 - 2019.03.08
+----------------------------------------------
+- Added "Show Soundwave" option to the Music Player widget.
+- Fixed unwanted anitmation on Play button of the Music player. 
+- Fix the responsive logo resize animation
+
+----------------------------------------------
+V.4.1.3 - 2019.03.07
+----------------------------------------------
+- New theme demo available: StreamKing. Streamking is a WordPress Podcast Theme with Audio Streaming.
+- Added hover animation on the Play button of the Podcast Player to make it more intuitive.
+
+----------------------------------------------
+V.4.1.2 - 2019.02.28
+----------------------------------------------
+- Updated WPBakery Page Builder to 5.7
+- Updated Essential Grid to 2.3.2
+- Updated Slider Revolution  to 5.4.8.3
+- Fixed banner z-index
+
+----------------------------------------------
+V.4.1.1 - 2019.02.21
+----------------------------------------------
+- Added Cornerstone theme demo for Elementor
+- Fixed Sub-menu padding when the menu is set to "not fixed"
+
+----------------------------------------------
+V.4.1 - 2019.02.19
+----------------------------------------------
+- Now fully compatible with Elementor Pro Plugin (Header, Footer, Singles, Archives)!
+- Added CastoPress theme demo for Elementor
+- Updated Font Awesome icons library.
+- Removed black default footer background
+- Removed "Mailchimp for WP" as required plugin.
+- Fixed single Playlist template margin-top
+- Removed some unused WooCommerce CSS
+
+---------------------------------------------
+V.4.0 - 2019.02.10
+----------------------------------------------
+* ATTENTION: If you use the featured player in a single ARTIST page, make sure to set new colors in WP-Admin > Audio Players & Event Settings > Music Player. Now you can change the background of that player independently from the footer player.
+
+- Audio Player has been refactored! It's now a lot more lightweight on both desktop and mobile and allow audio streaming from different platforms. Change are listed below:
+  _ Now we use a real-time spectrum analyzer soundwave on the audio player in the artist single pages.
+  _ Mobile browser will not crash anymore with long audio tracks
+  _ We have redesigned the soundwave in the footer player with dynamic SVG. It's much more faster.
+  _ We have added an option in General Settings to Use a Real-time Spectrum Analyzer for the Podcast Players and Artist Players.
+  _ You can now stream audio from different platforms including SoundCloud, Icecast, Libsyn, Stitcher, Podbean., Shoutcast, Mixcloud, Buzzsprout, Simplecast, Spreaker, etc.
+  _ If you don't hear the audio, make sure to disable the Real-Time Spectrum Analyzer in General Settings.
+
+- Optimized the stylesheets to be more lightweight
+- Fixed the annoying quick flash resizing when loading an Elementor Page
+- Fixed the display of the footer when using Elementor's Blend Mode.
+- Fixed the playlist that overlapped the footer audio player when popping up.
+- Fixed the logo on mobile that not being clickable
+- Fixed a PHP 7.2 notice in WooCommerce
+- Fixed a PHP 7.2 notice in Audio Player Settings
+- Small security fix on string encoding
+
+- Added Indigo theme demo for Elementor
+- Added Kimchee theme demo for Elementor
+
+----------------------------------------------
+V.3.1.10 - 2019.02.01
+----------------------------------------------
+- New theme available: Symphony
+- Added Prodigy theme demo for Elementor
+- Fixed the theme options typography loading issue.
+- Fixed the sub-menu overlapping issue.
+
+----------------------------------------------
+V.3.1.9 - 2019.01.23
+----------------------------------------------
+- Added Magnetic theme demo for Elementor
+- Fixed Logo overlapping issue on mobile.
+
+----------------------------------------------
+V.3.1.8 - 2019.01.22
+----------------------------------------------
+- Fixed the audioplayer control issue when the "ajax continuous player" option is disable.
+- Minor layout changes to the single album template (padding, image size).
+
+----------------------------------------------
+V.3.1.7 - 2019.01.19
+----------------------------------------------
+- New theme available: StandUp!
+- Fixed the mini logo that did not shown up when using the dark logo mode on a page setting.
+- Fixed an issue with custom post types that use password protection.
+- Minor Security fix
+
+----------------------------------------------
+V.3.1.6 - 2019.01.15
+----------------------------------------------
+- Added Skullz theme demo for Elementor
+
+----------------------------------------------
+V.3.1.5 - 2019.01.11
+----------------------------------------------
+- Fixed issue with the mobile menu on iOS and its close button
+- Fixed minor issue with the Milend Demo Box Shadow
+- Fixed an issue with the Elementor Editor Mode. We can now easily select a section under the main menu.
+- Minor Security patch
+
+----------------------------------------------
+V.3.1.4 - 2018.12.21
+----------------------------------------------
+- Added Beats theme demo for Elementor
+- Added Downbeat theme demo for Elementor
+
+----------------------------------------------
+V.3.1.3 - 2018.12.19
+----------------------------------------------
+- Added Karbones theme demo for Elementor
+- Added Soundman theme demo for Elementor
+- Added Milend theme demo for Elementor
+- Added Responsive header transpenracy option
+- Fixed Responsive style minor issues
+- Fixed Responsive menu typography option
+- Optimisation stylesheet
+
+----------------------------------------------
+V.3.1.2 - 2018.12.14
+----------------------------------------------
+- Fixed sub menu color issue
+
+----------------------------------------------
+V.3.1.1 - 2018.12.13
+----------------------------------------------
+- Added Studio theme demo for Elementor
+
+----------------------------------------------
+V.3.1 - 2018.12.12
+----------------------------------------------
+- New look and feel for the Mobile Menu. Slicker design with smooth animations. Check our demos.
+- Added an option to have a dedicated logo for the mobile menu.
+- Added The Crew theme demo for Elementor
+
+----------------------------------------------
+V.3.0.1 - 2018.11.08
+----------------------------------------------
+- Added Podcastr theme demo for Elementor
+- Added Styling to Elementor's sidebar widget
+- Fixed PHP notice in footer when Elementor is not activated
+
+----------------------------------------------
+V.3.0 - 2018.11.07
+----------------------------------------------
+- We now support Elementor Page Builder! More info at https://www.elementor.com
+- New plugin available: Elementor for Sonaar. Required if you use Elementor
+- You can now import the Elementor version of Apex, Moonlight and Outlander. The other demos will be available shortly.
+- Fixed Woocommerce 3.x error: Woocommerce_get_page_id is depreciated. Replaced by wc_get_page_id
+- Removed the VC class on the Artist Single, Audio Player and Video List template.
+- Optimized call to our server's API for licence check
+- Updated WPBakery Page Builder 5.6 to be compatible with WP 5 (Guternburg) Go to WP-Admin > Appearance > Install Plugins the update the plugin.
+- Updated Essential Grid 2.3 Go to WP-Admin > Appearance > Install Plugins the update the plugin.
+- Added New menu location to have different menu items on mobile and on desktop
+
+
+----------------------------------------------
+V.2.3 - 2018.11.07
+----------------------------------------------
+- Refactored the main menu for better optimisation including some fixes for incontainer menu styles and some other minor tweaks. 
+- Restyle the "Call to Action" button in the continuous audioplayer
+- Add the Category name as the podcast playlist title in the continuous audioplayer
+- Updated: Iron-demo-impoter plugin to 1.5
+- Fixed: Warning alert since PHP 7.2
+
+*Please clear your browser cache after the update.
+
+----------------------------------------------
+V.2.2.2 - 2018.10.22
+----------------------------------------------
+Fixed the playlist loading issue caused by the new "play last published" feature
+
+----------------------------------------------
+V.2.2.1 - 2018.10.21
+----------------------------------------------
+- New! Theme Demo: Speakerpress for Podcasters
+
+----------------------------------------------
+V.2.2 - 2018.10.20
+----------------------------------------------
+- New! Theme Demo: Castopress for Podcasters
+- New! Shuffle option: We have added an icon on the continuous player for people who want to shuffle the playlist. This option is also available from the backend to let play random tracks on selected playlist.
+- New! Option on playlist/podcast widget to display the last published album/episode. This is usefull if you dont want to update the widget all the time.
+- Fixed http vs https stream file
+- Fixed anchor links on mobile that were scrolled to an offset position
+- Minor fixes
+
+----------------------------------------------
+V.2.1 - 2018.10.17
+----------------------------------------------
+- Fixed: iOS playback
+- Fixed: Safari v.12 playback
+- Fixed: Replaced the deprecated functions for people using PHP 7.2+
+- Fixed: APEX Footer Social Icons alignment on Mobile
+- Fixed: Playlist from Continuous Player might not display for some users
+- Fixed: Hotlinks overlap each others when too many icons are displayed
+- Fixed: color on volume control
+- Added: Option to choose the podcast episode and podcast show slug
+- Added: Google Fonts Zilla Slab and Overpass
+
+----------------------------------------------
+V.2.0.2 - 2018.10.05
+----------------------------------------------
+- Fixed: Audioplayer playlist aligment issue 
+- Fixed: APEX Footer Social Icons alignment on Mobile
+
+----------------------------------------------
+V.2.0.1 - 2018.10.04
+----------------------------------------------
+- Fixed: volume slider click + drag and drop behavior
+- Fixed: ability to add hot links now works
+
+----------------------------------------------
+V.2.0 - 2018.10.03
+----------------------------------------------
+- We now fully support Podcast! Introducing the new theme's demo: Podcastr!
+- New! Custom Post Types: Podcast and Podcast Show
+- New! Audio Player available for Podcast with real-time spectro graph!
+- New! Option to disable any custom post types from your dashboard in Theme Options > General Settings
+- New! Volume bar on the continuous footer player.
+- New! Time duration on the continuous footer player.
+- New! Added a progress bar to the continuous footer player that display until the soundwave graph shows up. The soundwave graph will show up when the song has fully loaded.
+- Reskined our custom WPBakery widget's icons.
+- Improved the banner parallax animation. The background image will zoom when user scrolls down.
+- Added option in banner settings to push the content up to overlap the banner
+- Added PDF Icon for store-list
+- Renamed Sonaar Settings for Theme Options
+- Fixed: Search result page that threw a notice error
+- Updated: WPBakery Page Builder to 5.5.4
+
+
+----------------------------------------------
+V.1.8.7 - 2018.08.23
+----------------------------------------------
+- New theme Outlander!
+- Fixed hotlink issue on mobile menu
+
+----------------------------------------------
+V.1.8.6 - 2018.08.17
+----------------------------------------------
+- New theme Karbones!
+- Added new option "Always Display the Audio Player"
+- Fixed duplicate content issue
+
+----------------------------------------------
+V.1.8.5 - 2018.08.08
+----------------------------------------------
+- Added a BandsInTown Widget and WPBakery Page Builder Shortcode
+
+----------------------------------------------
+V.1.8.4 - 2018.08.02
+----------------------------------------------
+- Fix Events-list artist filter issue
+- Updated: WPBakery Page Builder to 5.5.2
+- Updated: Slider Revolution to 5.4.8
+- Updated: Essential Grid to 2.2.5
+
+----------------------------------------------
+V.1.8.3 - 2018.07.14
+----------------------------------------------
+- Added new theme demo! KimChee
+- Fix social icon issue. Now you can delete them from the admin
+
+----------------------------------------------
+V.1.8.2 - 2018.06.13
+----------------------------------------------
+- Fixed an issue with our API
+
+----------------------------------------------
+V.1.8.1 - 2018.06.06
+----------------------------------------------
+- Add new separators to the Row Separator Shapes library.
+- Fixed an issue with the Row Separator Shapes for WPBakery feature. 
+- Fixed an issue with the "Events and Music Settings" importation tool. 
+
+----------------------------------------------
+V.1.8 - 2018.06.01
+----------------------------------------------
+- New Feature! Added Row Separator Shapes for WPBakery! You can now add shape separator between your rows. 
+
+----------------------------------------------
+V.1.7.1 - 2018.06.01
+----------------------------------------------
+- Reducing number of call to the Licence Key API
+
+----------------------------------------------
+V.1.7 - 2018.05.29
+----------------------------------------------
+- Minor change in our Licence Key API
+
+----------------------------------------------
+V.1.6.2 - 2018.05.23
+----------------------------------------------
+- Updated: FontAwesome to 5.0.10
+
+----------------------------------------------
+V.1.6.1 - 2018.05.14
+----------------------------------------------
+- Fix issue with the pause button when using the NON-Ajax Player.
+
+----------------------------------------------
+V.1.6 - 2018.05.07
+----------------------------------------------
+- Refactored the Event List with an better UI. more flexibility and more options!
+- Updated Revolution Slider to 5.4.7.3
+- Added general left and right padding 15px on mobile device
+
+----------------------------------------------
+V.1.5.2 - 2018.04.26
+----------------------------------------------
+*The Essential Grid plugin update will be required. When the theme is updated please go to wp-admin>appearance>install plugins to update Essential Grid to 2.2.4.(https://d.pr/free/i/W8QMIZ)
+
+- Updated: Essential Grid to 2.2.4.1 which fix the Instagram API feed issue. 
+
+----------------------------------------------
+V.1.5.1 - 2018.03.15
+----------------------------------------------
+*The Essential Grid plugin update will be required. When the theme is updated please go to wp-admin>appearance>install plugins to update Essential Grid to 2.2.4.(https://d.pr/free/i/W8QMIZ)
+
+- Updated: Essential Grid to 2.2.4 which fix the Instagram API feed issue. 
+- Updated: WPBackery Page Builder (Formerly Visual Composer) to 5.4.7 (Instruction: To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.)
+- Updated: Revolution Slider to 5.4.7.1 (Instruction: To update the plugin, go to WP-Admin > Plugins > Delete the plugin then go to Appearance > Install Plugins > and re-install the plugin. You won't loose anything.)
+- Add layout options on Woocommerce pages
+
+----------------------------------------------
+V.1.5 - 2018-03-04
+----------------------------------------------
+- Added 10+ Sonaar Vault Elements!
+- Added an option to redirect the artist singl page to an external URL
+- Fixed th event call-to-action buttons
+- Compatibility with WooCommerce 3.3.3
+- Better compatibility with CloudFlare and its cache.
+
+----------------------------------------------
+V.1.4 - 2018-02-17
+----------------------------------------------
+- New theme demo! Studio Recording!
+- New theme demo! Skullz!
+- Fixed cache issue with our main JS file
+- Added icon fa-music in the store list
+- Added an option to have multiple call to action buttons in the Event Single page.
+- Added an option to choose either Classic or List blog post as archives
+- Fixed an issue with all events showing up in the carrousel widget
+- Fixed an issue with the long track name on mobile
+- Added the string "By" before the Artist Name
+- Fixed the close state of the player. It will not show anymore when you switch page.
+- Fixed the player that was automatically shown in Internet Explorer 11
+- Fixed issue with the last track that skipped to track 1 automatically
+- Fixed newsletter placeholders in Firefox
+- Other minor fixes
+
+----------------------------------------------
+V.1.3 - 2018-02-07
+----------------------------------------------
+- New theme demo! The Crew has been added
+- Added new option to have a boxed layout
+- Added new option to set the width of your layout
+- Added the store icons when using the Album Sidecover template
+- Improved page rendering processing on mobile when you scroll
+- Improved error message handling for our internal API
+- Fixed an issue with the next track button which played a song randomly
+- Fixed issue when using VC Row Default VS Stretch
+- Fixed issue when using a different footer on the custom post pages
+- Fixed issue with third party plugins and JS conflicts when using the ajax page loading
+- Fixed anchors scrolling with the push menu
+- Fixed the countdown to be translatable in any language
+- Fixed Autoplay issue
+- Fixed Single Past Events 404
+- Removed artist name in the album sidecover if there is no artist specified
+- Embed vue.js
+- Other small fixes
+
+----------------------------------------------
+V.1.2 - 2018-01-24
+----------------------------------------------
+- New theme demo! SoundMan has been added
+- Added an option to set a different logo for mobile display
+- Fixed logo on mobile that doesnt resize
+- Fixed Child Theme CSS Call
+- Fixed Small issue with Google Font loading
+- Fixed a minor issue with the on-scroll menu in Safari
+- Fixed error with license check when using non http vs https
+- Better use of the hover button over the News List
+- Merged and minimized our 3 custom css in 1 file for faster loading
+
+----------------------------------------------
+V.1.1 - 2018-01-17
+----------------------------------------------
+- New elements have been added to Sonaar Vault
+- Combined JS and CSS Files to reduce requests
+- Now the track store buttons always shows up on mobile.
+- Fixed an issue when only 1 song was set in a playlist and couldn't be played
+- Fixed Single Post Featured image options.
+- Fixed Child Theme Screenshot
+
+----------------------------------------------
+V.1.0 - 2018-01-14
+----------------------------------------------
+- Initial Version
